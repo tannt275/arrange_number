@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tannt.arrangenumber.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="?attr/actionBarSize"
+        android:minHeight="@dimen/_xxx36dp"
+        android:padding="@dimen/_xxx5dp">
+
+        <TextView
+            android:id="@+id/estimate_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_xxx5dp"
+            android:background="@drawable/shape_time_border"
+            android:gravity="center"
+            android:text="@string/temps_text"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/colorTimeRed"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/requirement_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_xxx41dp"
+            android:layout_toStartOf="@id/estimate_time"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topLayout"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white" />
+</RelativeLayout>

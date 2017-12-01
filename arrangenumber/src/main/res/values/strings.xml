@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ArrangeNumber</string>
+    <string name="temps_text">20</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="title_choose_language">Choose Language</string>
+
+    <string-array name="string_locale">
+        <item>English</item>
+        <item>Viet Name</item>
+    </string-array>
+
+    <string-array name="id_languages">
+        <item>en</item>
+        <item>vi</item>
+    </string-array>
+
+</resources>

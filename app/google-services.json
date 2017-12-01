@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692026432800",
+    "project_id": "firebase-gmydev"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692026432800:android:6d6ba77255492ad8",
+        "android_client_info": {
+          "package_name": "apv.tannt.mydev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692026432800-lqcsl7hc0duri406tsisltq45p2ta4cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apv.tannt.mydev",
+            "certificate_hash": "4c7915ab3addfbda73cba4ea176f6cf61383e4f7"
+          }
+        },
+        {
+          "client_id": "692026432800-08p17epnlftisinjp8obl6c6oo4868d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwZMNhwTrbMJ1wz1RFmz6obqcOfIwImhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CreateDevFB</string>
+
+    //Facebook information
+    <string name="facebook_app_id">181614942418045</string>
+    <string name="fb_login_protocol_scheme">fb181614942418045</string>
+    <string name="add_realm">Add Realm Data</string>
+
+</resources>
